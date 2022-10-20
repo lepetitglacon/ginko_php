@@ -1,0 +1,24 @@
+{
+  "name": "petitglacon/ginko-api",
+  "type": "library",
+  "description": "Manage category tree",
+  "authors": [],
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Petitglacon\\GinkoApi\\": "Classes"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Petitglacon\\GinkoApi\\Tests\\": "Tests"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.0"
+  }
+}
